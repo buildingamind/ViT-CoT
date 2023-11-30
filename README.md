@@ -23,9 +23,9 @@ ViT-CoT
 │   ├── compute_embeddings_jepa.py
 │   ├── compute_embeddings_simclr.py   
 │
-├── notebooks: Jupyter notebook files used for creating the graphs and attention head visualizations (as shown in the paper).
-    └── plotGraphs.ipynb
-    └── visualizeAttentionHeads.ipynb
+└── notebooks: Jupyter notebook files used for creating the graphs and attention head visualizations (as shown in the paper).
+│   └── plotGraphs.ipynb
+│   └── visualizeAttentionHeads.ipynb
 │    
 ├── media: directory containing images and videos for the readme
 ```
@@ -50,7 +50,17 @@ pip install -r requirements.txt
 
 
 ## Contributors
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/L-Pandey"><img src="https://avatars.githubusercontent.com/u/90662028?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lalit Pandey</b></sub></td>
+    <td align="center"><a href="https://github.com/smwwood"><img src="https://avatars.githubusercontent.com/u/90662028?v=4?s=100" width="100px;" alt=""/><br /><sub><b> Samantha M. W. Wood</b></sub></td>
+    <td align="center"><a href="https://github.com/justinnwood"><img src="https://avatars.githubusercontent.com/u/90662028?v=4?s=100" width="100px;" alt=""/><br /><sub><b> Justin N. Wood</b></sub></td>
+  </tr>
 
+</table>
+
+  </tr>
+</table>
 
 #### Notes:
 
