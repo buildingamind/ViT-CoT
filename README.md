@@ -14,7 +14,11 @@ Vision transformers (ViTs) are top-performing models on many computer vision ben
 
 
 ## Environment Set Up
+The proposed model in this paper is primarily implemented using <a href='https://lightning.ai/docs/pytorch/stable/'> PyTorch Lightning</a> and <a href="https://pytorch.org/"> Pytorch </a>. All the dependencies are listed in the <i><u>requirements.txt</u></i> file.
 
+```python
+pip install -r requirements.txt
+```
 
 ## Model Training
 
