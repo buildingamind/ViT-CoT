@@ -2,7 +2,7 @@
 
 ### Accepted Conference: NeurIPS 2023
 
-<img src='/Users/lalitpandey/Desktop/ViT-CoT/media/main.png'>
+<img src='./media/main.png'>
 
 
 ## Abstract
