@@ -1,4 +1,4 @@
-<h1><center> Are Vision Transformers More Data Hungry Than Newborn Visual Systems? </center> </h1>
+<center><h1>Are Vision Transformers More Data Hungry Than Newborn Visual Systems?</h1></center> 
 
 ### Accepted Conference: NeurIPS 2023
 
