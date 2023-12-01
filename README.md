@@ -20,7 +20,7 @@ Vision transformers (ViTs) are top-performing models on many computer vision ben
 ViT-CoT leverages the temporal structure of embodied data streams. Learning occurs by making successive views (images seen in a 300 ms temporal window) more similar in the embedding space.
 </p>
 
-<img src="./media/loss.png" style="height:300px">
+<img src="./media/loss_func.png" style="height:200px">
 
 ## Code Base Organization
 ```
