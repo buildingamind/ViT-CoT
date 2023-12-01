@@ -43,15 +43,18 @@ pip install -r requirements.txt
 ## Model Testing
 
 
-## Model Visualization
-
-
 ## Plot Results
 
 <ol>
 <li> <u><b>plotGraphs.ipynb</b></u> - Jupyter notebook containing python code to create bar graphs and line graphs (as shown in the paper). </li>
+
 <br>
 <li> <u><b>visualizeAttentionHeads.ipynb</b></u> - Jupyter notebook containing python code to show the internal representations (saliency maps) for each attention head (as shown in the paper). </li>
+
+<br>
+<p> Example: </p>
+<img src="./media/vis.png" style="height:250px">
+
 </ol>
 
 
