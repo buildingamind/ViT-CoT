@@ -48,6 +48,12 @@ pip install -r requirements.txt
 
 ## Plot Results
 
+<ol>
+<li> <u><b>plotGraphs.ipynb</b></u> - Jupyter notebook containing python code to create bar graphs and line graphs (as shown in the paper). </li>
+<br>
+<li> <u><b>visualizeAttentionHeads.ipynb</b></u> - Jupyter notebook containing python code to show the internal representations (saliency maps) for each attention head (as shown in the paper). </li>
+</ol>
+
 
 ## Contributors
 <table>
@@ -61,6 +67,19 @@ pip install -r requirements.txt
 
   </tr>
 </table>
+
+## Citation 
+
+```
+@inproceedings{
+pandey2023are,
+title={Are Vision Transformers More Data Hungry Than Newborn Visual Systems?},
+author={Lalit Pandey and Samantha Marie Waters Wood and Justin Newell Wood},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+year={2023},
+url={https://openreview.net/forum?id=W23ZTdsabj}
+}
+```
 
 #### Notes:
 
