@@ -14,19 +14,21 @@ Vision transformers (ViTs) are top-performing models on many computer vision ben
 ```
 ViT-CoT
 └── datamodules: directory containing python code to set up the datasets and dataloaders to train and test the model.
-│   ├── compute_embeddings_videomae.py
-│   ├── compute_embeddings_jepa.py
-│   ├── compute_embeddings_simclr.py   
+│   ├── image_pairs.py - set dataloader to train the model
+│   ├── invariant_recognition.py - set dataloader to evaluate the model using a linear probe
 │
 └── models: directory containing python code to set up the architecture for training and evaluating the model.
-│   ├── compute_embeddings_videomae.py
-│   ├── compute_embeddings_jepa.py
-│   ├── compute_embeddings_simclr.py   
+│   ├── vit_contrastive.py - contains ViT-CoT architecture
+│   ├── train_vit.py - contains model training loop
+│   ├── common.py - contains linear probe architecture
+│   ├── evaluate.py - contains encoder+linear probe evaluation code
 │
 └── notebooks: Jupyter notebook files used for creating the graphs and attention head visualizations (as shown in the paper).
 │   └── plotGraphs.ipynb
 │   └── visualizeAttentionHeads.ipynb
 │    
+└── scripts: directory containing scripts to train and test the model.
+│   └── train_vit.sh
 ├── media: directory containing images and videos for the readme
 ```
 
@@ -45,13 +47,20 @@ The bash script 'train_vit.sh' is used to train the model. The bash script calls
 sh train_vit.sh
 ```
 
-<p>Example</p>
+<p>Example:</p>
+
+The following example shows the list of arguments in the bash script used to train the model.
 
 <img src="./media/bash.png" style="height:200px">
 
 
 ## Model Testing
 
+<p> To test the ViT-CoT model (encoder), a linear probe is attached to the frozen encoder. Script <b>'evaluate.py'</b> is used to freeze the encoder and attach the linear probe to evaluate the model using a k-fold analysis.</p>
+
+```python
+python evaluate.py --data_dir "PATH_TO_DATA" --exp_name "EXP_NAME" --model "vit" --model_path "PATH_TO_CKPT" --max_epochs 100 --num_folds 12 --identifier "12fold" --project_name "PROJECT_NAME" --shuffle True
+```
 
 ## Plot Results
 
@@ -93,6 +102,3 @@ year={2023},
 url={https://openreview.net/forum?id=W23ZTdsabj}
 }
 ```
-
-#### Notes:
-
