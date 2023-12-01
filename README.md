@@ -39,6 +39,16 @@ pip install -r requirements.txt
 
 ## Model Training
 
+The bash script 'train_vit.sh' is used to train the model. The bash script calls the python script which intializes the model and the dataloader.
+
+```python
+sh train_vit.sh
+```
+
+<p>Example</p>
+
+<img src="./media/bash.png">
+
 
 ## Model Testing
 
