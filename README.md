@@ -47,7 +47,7 @@ sh train_vit.sh
 
 <p>Example</p>
 
-<img src="./media/bash.png">
+<img src="./media/bash.png" style="height:200px">
 
 
 ## Model Testing
