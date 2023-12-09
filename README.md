@@ -42,7 +42,7 @@ ViT-CoT
 │   └── plotGraphs.ipynb
 │   └── visualizeAttentionHeads.ipynb
 │    
-└── scripts: directory containing scripts to train and test the model.
+└── scripts: directory containing scripts to train and test the model
 │   └── train_vit.sh
 │   ├── train_vit.py - contains model training loop
 │   ├── evaluate.py - contains encoder+linear probe evaluation code
