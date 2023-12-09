@@ -45,7 +45,8 @@ ViT-CoT
 └── scripts: directory containing scripts to train and test the model
 │   └── train_vit.sh
 │   ├── train_vit.py - contains model training loop
-│   ├── evaluate.py - contains encoder+linear probe evaluation code
+│   ├── evaluate.py - contains encoder+linear probe training loop
+│   ├── evaluator.py - contains encoder+linear probe training logic
 ├── media: directory containing images and videos for the readme
 ```
 
