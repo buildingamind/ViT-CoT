@@ -1,6 +1,11 @@
 <h1 align="center">Are Vision Transformers More Data Hungry Than Newborn Visual Systems?</h1>
 <p align="center"> Lalit Pandey, Samantha M. W. Wood, Justin N. Wood </p>
 
+
+<p>Lab Link: </p> 
+<p>Paper Link: </p>
+<p>Dataset Link: </p>
+
 ### Accepted Conference: NeurIPS 2023
 
 
