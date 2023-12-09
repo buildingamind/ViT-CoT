@@ -36,9 +36,7 @@ ViT-CoT
 │
 └── models: directory containing python code to set up the architecture for training and evaluating the model.
 │   ├── vit_contrastive.py - contains ViT-CoT architecture
-│   ├── train_vit.py - contains model training loop
 │   ├── common.py - contains linear probe architecture
-│   ├── evaluate.py - contains encoder+linear probe evaluation code
 │
 └── notebooks: Jupyter notebook files used for creating the graphs and attention head visualizations (as shown in the paper).
 │   └── plotGraphs.ipynb
@@ -46,6 +44,8 @@ ViT-CoT
 │    
 └── scripts: directory containing scripts to train and test the model.
 │   └── train_vit.sh
+│   ├── train_vit.py - contains model training loop
+│   ├── evaluate.py - contains encoder+linear probe evaluation code
 ├── media: directory containing images and videos for the readme
 ```
 
