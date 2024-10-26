@@ -97,8 +97,8 @@ python evaluate.py --data_dir "PATH_TO_DATA" --exp_name "EXP_NAME" --model "vit"
 <table>
   <tr>
     <td align="center"><a href="https://github.com/L-Pandey"><img src="https://avatars.githubusercontent.com/u/90662028?v=4?s=100" width="100px;" alt=""/><br /><b>Lalit Pandey</b></td>
-    <td align="center"><a href="https://github.com/smwwood"><img src="https://avatars.githubusercontent.com/u/90662028?v=4?s=100" width="100px;" alt=""/><br /><b> Samantha M. W. Wood</b></td>
-    <td align="center"><a href="https://github.com/justinnwood"><img src="https://avatars.githubusercontent.com/u/90662028?v=4?s=100" width="100px;" alt=""/><br /><b> Justin N. Wood</b></td>
+    <td align="center"><a href="https://github.com/smwwood"><img src="" width="100px;" alt=""/><br /><b> Samantha M. W. Wood</b></td>
+    <td align="center"><a href="https://github.com/justinnwood"><img src="" width="100px;" alt=""/><br /><b> Justin N. Wood</b></td>
   </tr>
 
 </table>
